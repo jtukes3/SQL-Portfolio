@@ -1,3 +1,5 @@
+/*In this project, I created a store that sells shoes. I needed to create a table for all of the items sold by my store, and at least 5 columns of data that I believed is necessary to store.
+I had to insert 15 items, and use select statements to order your items by price and show at least one statistic about the items. See my work below. */
 CREATE TABLE sneaker_store(id INTEGER PRIMARY KEY, shoe_type TEXT, brand TEXT, size INTEGER, price INTEGER);
 /* Create table for sneaker store with columns for id, shoe type, brand, size, and price */
 
