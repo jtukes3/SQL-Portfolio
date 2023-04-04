@@ -1,5 +1,5 @@
-/* In this project I pulled info from the source listed below that contained data about the NBA Players of the week winners from Oct 20, 1979 - Mar 8, 2020. See the questions I asked and how I answered them below */ 
-/* Source: https://gist.github.com/pamelafox/6cda1115e2bcbc43e62cf4ff9d4158c7 */
+--In this project I pulled info from the source listed below that contained data about the NBA Players of the week winners from Oct 20, 1979 - Mar 8, 2020. See the questions I asked and how I answered them below */ 
+--Source: https://gist.github.com/pamelafox/6cda1115e2bcbc43e62cf4ff9d4158c7 */
 
 /*What is the average age for winners of Player of the Week? Who was the oldest player to win and what was his age? Who was the youngest player to win and what was his age?*/
 SELECT Round(AVG(Age),2) AS Average_Age FROM players; --Select average age of players of the week winners
