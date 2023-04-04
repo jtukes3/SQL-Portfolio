@@ -29,6 +29,6 @@ ORDER BY price DESC;
 SELECT brand, ROUND(AVG(price),2) AS average_price FROM sneaker_store 
 GROUP BY brand 
 ORDER BY average_price DESC; 
---select brand and create average price column, group by brand, set prices from greatest to smallest
+/*select brand and create average price column, group by brand, set prices from greatest to smallest*/
 
 
