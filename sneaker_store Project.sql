@@ -1,5 +1,6 @@
 /*In this project, I created a store that sells shoes. I needed to create a table for all of the items sold by my store, and at least 5 columns of data that I believed is necessary to store.
 I had to insert 15 items, and use select statements to order your items by price and show at least one statistic about the items. See my work below. */
+
 CREATE TABLE sneaker_store(id INTEGER PRIMARY KEY, shoe_type TEXT, brand TEXT, size INTEGER, price INTEGER);
 /* Create table for sneaker store with columns for id, shoe type, brand, size, and price */
 
@@ -24,6 +25,10 @@ SELECT * FROM sneaker_store
 ORDER BY price DESC;
 /* select all columns from the table and order by price (greatest to smallest)
 
-SELECT brand, ROUND(AVG(price),2) AS average_price FROM sneaker_store --select brand and create average price column
-GROUP BY brand --group by brand places each brand on its own row
-ORDER BY average_price DESC; --places brand with the highest average brand at the top and brand with the smallest average at the bottom
+--select brand and create average price column
+SELECT brand, ROUND(AVG(price),2) AS average_price FROM sneaker_store 
+GROUP BY brand /*group by brand places each brand on its own row*/ 
+ORDER BY average_price DESC; /*places brand with the highest average brand at the top and brand with the smallest average at the bottom*/
+ 
+
+
