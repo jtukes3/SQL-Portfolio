@@ -1,5 +1,7 @@
 --Covid Data Exploration 
 --Skills Showcased: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+--Data Sources: CovidDeaths https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/CovidDeaths.xlsx CovidVaccinations https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/CovidVaccinations.xlsx
+
 
 -- TOTAL CASES VS TOTAL DEATHS
 -- Likelihood of dying if you contract covid in your country (United States for example)
