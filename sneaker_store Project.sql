@@ -25,10 +25,10 @@ SELECT * FROM sneaker_store
 ORDER BY price DESC;
 /* select all columns from the table and order by price (greatest to smallest)
 
---select brand and create average price column
+--select brand and create average price column, group by brand, set prices from greatest to smallest
 SELECT brand, ROUND(AVG(price),2) AS average_price FROM sneaker_store 
-GROUP BY brand /*group by brand places each brand on its own row*/ 
-ORDER BY average_price DESC; /*places brand with the highest average brand at the top and brand with the smallest average at the bottom*/
+GROUP BY brand 
+ORDER BY average_price DESC; 
  
 
 
